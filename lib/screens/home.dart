@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ung_modern/screens/register.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -29,7 +30,13 @@ class _HomeState extends State<Home> {
           'Sign Up',
           style: TextStyle(color: Colors.blue[800]),
         ),
-        onPressed: () {},
+        onPressed: () {
+          print('You Click SignUp');
+          // Route
+          var registerRoute =
+              MaterialPageRoute(builder: (BuildContext context) => Register());
+              Navigator.of(context).push(registerRoute);
+        },
       ),
     );
   }
