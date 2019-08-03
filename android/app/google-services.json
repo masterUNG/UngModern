@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "560083450818",
+    "firebase_url": "https://ungmodern.firebaseio.com",
+    "project_id": "ungmodern",
+    "storage_bucket": "ungmodern.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560083450818:android:2ed029081fa9eb9e",
+        "android_client_info": {
+          "package_name": "th.in.androidthai.ung_modern"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560083450818-qccpnapuchicdcpbla5ol84dc5k5u693.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1QDThtE1BBXhCvT-YOmkh7SSg4eWTVvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "560083450818-qccpnapuchicdcpbla5ol84dc5k5u693.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
