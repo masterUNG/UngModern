@@ -101,7 +101,8 @@ class _MyServiceState extends State<MyService> {
       leading: Icon(Icons.exit_to_app),
       title: Text('Sign Out And Exit'),
       trailing: Icon(Icons.navigate_next),onTap: (){
-        signOutAndExit();
+        print('You Tap Singoit');
+       signOutThread();
       },
     );
   }
