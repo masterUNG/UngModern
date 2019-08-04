@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:ung_modern/screens/authen.dart';
 import 'package:ung_modern/screens/my_service.dart';
 import 'package:ung_modern/screens/register.dart';
 
@@ -74,7 +75,12 @@ class _HomeState extends State<Home> {
           'Sign In',
           style: TextStyle(color: Colors.white),
         ),
-        onPressed: () {},
+        onPressed: () {
+
+          var authenRoute = MaterialPageRoute(builder: (BuildContext context) => Authen());
+          Navigator.of(context).push(authenRoute);
+
+        },
       ),
     );
   }
